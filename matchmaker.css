@@ -11,3 +11,9 @@ body {
 p {
     color:midnightblue;
 }
+
+label {
+    color:aqua;
+    border-style: dotted;
+    border-width: thick;
+}
