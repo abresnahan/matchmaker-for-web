@@ -1,9 +1,13 @@
 h1 {
-    color: magenta;
+    color: turquoise;
     text-align: center;
     font-family: cursive;
 }
 
 body { 
     background-color: plum;
+}
+
+p {
+    color:midnightblue;
 }
