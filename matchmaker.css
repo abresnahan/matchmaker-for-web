@@ -13,7 +13,8 @@ p {
 }
 
 label {
-    color:aqua;
+    color:black;
+    background-color: cornflowerblue;
     border-style: dotted;
     border-width: thick;
 }
