@@ -13,7 +13,6 @@ function CalculateCompatibility() {
 
     const MAX_SCORE = 25;
 
-
     let Question1Response = document.getElementById("q1").selectedOptions[0].value;
     let Question2Response = document.getElementById("q2").selectedOptions[0].value;
     let Question3Response = document.getElementById("q3").selectedOptions[0].value;
