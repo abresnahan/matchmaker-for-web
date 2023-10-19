@@ -1,8 +1,10 @@
 h1 {
-    color: fuchsia;
+    color: rgb(232, 147, 232);
     text-align: center;
     font-family: cursive;
     background-color: grey;
+    border-style: dotted;
+    border-width: thick;
 }
 
 body { 
@@ -14,8 +16,6 @@ p {
 }
 
 label {
-    color:fuchsia;
+    color:rgb(232, 147, 232);
     background-color: gray;
-    border-style: dotted;
-    border-width: thick;
 }
