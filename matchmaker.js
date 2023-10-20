@@ -3,9 +3,9 @@ console.log("Starting Matchmaker...");
 function CalculateCompatibility() {
     console.log("CalculateCompatibility()");
 
-const FINAL_COMMENT_GREAT = "Best Friends"
-const FINAL_COMMENT_GOOD = "Friends but not Best Friends"
-const FINAL_COMMENT = "Please stay away from me"
+const FINAL_COMMENT_GREAT = "YES, YES, YES, you are great!"
+const FINAL_COMMENT_GOOD = "We can be friends, but not best friends."
+const FINAL_COMMENT = "Nice to see we have nothing in common."
 
     const DESIRED_RESPONSE = [
         5, /* Strongly Agree */
