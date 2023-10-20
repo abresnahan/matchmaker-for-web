@@ -3,6 +3,10 @@ console.log("Starting Matchmaker...");
 function CalculateCompatibility() {
     console.log("CalculateCompatibility()");
 
+const FINAL_COMMENT_GREAT = "Best Friends"
+const FINAL_COMMENT_GOOD = "Friends but not Best Friends"
+const FINAL_COMMENT = "Please stay away from me"
+
     const DESIRED_RESPONSE = [
         5, /* Strongly Agree */
         4, /* Agree */
@@ -65,4 +69,17 @@ function CalculateCompatibility() {
 
 
     document.getElementById("Compatibility").innerHTML = "Your compatibility is: " + TotalCompatibility;
+    console.log("TotalCompatibility="+TotalCompatibility);
+
+    if (TotalCompatibility < 50) {
+        console.log(FINAL_COMMENT);  
+        document.getElementById("Message").innerHTML = FINAL_COMMENT;       
+    } else if (TotalCompatibility < 70) {
+        console.log(FINAL_COMMENT_GOOD); 
+        document.getElementById("Message").innerHTML = FINAL_COMMENT_GOOD;
+    } else { 
+        console.log(FINAL_COMMENT_GREAT); 
+        document.getElementById("Message").innerHTML = FINAL_COMMENT_GREAT;
+    }
+  
 }
